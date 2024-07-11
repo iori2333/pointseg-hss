@@ -1,6 +1,8 @@
 # PointSeg-HSS
 
 > Code implementation of CVPRW2024 *Point-Supervised Semantic Segmentation of Natural Scenes via Hyperspectral Imaging*.
+> 
+> Material download: [OneDrive](https://smailnjueducn-my.sharepoint.com/:f:/g/personal/tianqi_ren_smail_nju_edu_cn/EjrYjrlGXiRMm8m07UiSBt8B8xKEhkTqaaYsS3F7G2vhXQ?e=Cay0Oo)
 
 ## Preparation
 
@@ -41,7 +43,7 @@ data = torch.load(path)
 """
 ```
 
-Dataset files are be downloaded from [OneDrive](https://smailnjueducn-my.sharepoint.com/:f:/g/personal/tianqi_ren_smail_nju_edu_cn/EjrYjrlGXiRMm8m07UiSBt8B8xKEhkTqaaYsS3F7G2vhXQ?e=Cay0Oo) or [Baidu]().
+Dataset files are be downloaded from [OneDrive](https://smailnjueducn-my.sharepoint.com/:f:/g/personal/tianqi_ren_smail_nju_edu_cn/EjrYjrlGXiRMm8m07UiSBt8B8xKEhkTqaaYsS3F7G2vhXQ?e=Cay0Oo).
 
 ## Experiments
 
@@ -88,4 +90,13 @@ python test_libhsi.py --model <model> --cube_width <int> --state_dict <path/to/c
 
 ## Citation
 
-
+```bibtex
+@InProceedings{Ren_2024_CVPR,
+    author    = {Ren, Tianqi and Shen, Qiu and Fu, Ying and You, Shaodi},
+    title     = {Point-Supervised Semantic Segmentation of Natural Scenes via Hyperspectral Imaging},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2024},
+    pages     = {1357-1367}
+}
+```
